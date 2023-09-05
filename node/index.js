@@ -12,25 +12,24 @@ const db = mysql.createConnection({
 
 app.use(express.json())
 
-// const createTableQuery = `
-//   CREATE TABLE people (
-//     id INT PRIMARY KEY AUTO_INCREMENT,
-//     name VARCHAR(100) NOT NULL
-//   )
-// `;
-//
-// function createTable() {
-//     db.query(createTableQuery, (err, result) => {
-//         if (err) {
-//             console.error('Erro ao criar a tabela:', err);
-//         } else {
-//             console.log('Tabela criada com sucesso!');
-//         }
-//         db.end();
-//     });
-// }
-//
-// createTable();
+const createTableQuery = `
+   CREATE TABLE people (
+     id INT PRIMARY KEY AUTO_INCREMENT,
+     name VARCHAR(100) NOT NULL
+   )
+ `;
+
+ function createTable() {
+     db.query(createTableQuery, (err, result) => {
+         if (err) {
+             console.error('Erro ao criar a tabela:', err);
+         } else {
+             console.log('Tabela criada com sucesso!');
+         }
+     });
+ }
+
+createTable();
 
 app.get('/', (req, res) => {
     const name = 'Gabriel';
