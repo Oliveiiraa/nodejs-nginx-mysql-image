@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a06770b9-cac4-4b09-8a8b-0e312368f205" name="Changes" comment="" />
+    <list default="true" id="a06770b9-cac4-4b09-8a8b-0e312368f205" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2UU6VIY63WRMubHtZIu7XZ8VnE1" />
   <component name="ProjectViewState">
@@ -30,6 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gabrieloliveira/Developer/study/full-cycle/docker/nodejs-nginx-mysql-image",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692981833602</updated>
       <workItem from="1692981836122" duration="4292000" />
+      <workItem from="1698106743430" duration="966000" />
     </task>
     <servers />
   </component>
